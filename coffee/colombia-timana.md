@@ -78,7 +78,7 @@ Higher-grown and lighter-roasted — denser, harder to extract. Expect to grind 
 
 | # | Date | Grind | Dose | Yield | Time | Pressure | Temp | Extraction | Strength | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | | |
+| 1 | 05.09.2026 | 0/24 | 15.0 g | 39 g | 30 s | Peaked 9 bar (likely OPV ceiling), eased to high-8/low-9 | 93 °C | Sour/acidic, underdeveloped | Intense — heavy, syrupy, noticeably heavier than any Costa Rica (El Perezoso) brew | PP95/Pr07. No ice — judged undrinkable as pulled. Sour+intense together — see `principles.md` §4 concentration-trap pattern. Suspected channeling, not confirmed |
 
 ## Other methods
 
