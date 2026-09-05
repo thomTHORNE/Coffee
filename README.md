@@ -11,7 +11,7 @@ context.md         constraints, gear, prehistory
 equipment/         confirmed + pending Sage, Arco, and Switch behaviour, one file per item
 corrections.md     dead ends and previously wrong answers
 principles.md      transferable brewing theory
-coffees/           one file per bag
+coffee/            one file per bag
 ```
 
 ## Why the split
@@ -22,13 +22,13 @@ Each file has a different lifespan and a different reason to be opened.
 - **`equipment/`** is specific to this machine, grinder, and brewer — one file per item. Durable, but only while the hardware is. Each file separates confirmed findings from ones still pending or to be verified.
 - **`corrections.md`** stops known-bad suggestions from being regenerated. It grows and never shrinks.
 - **`context.md`** is standing facts about constraints and history.
-- **`coffees/*.md`** is the only place that holds volatile data — current dial-in state, open questions, per-bag results.
+- **`coffee/*.md`** is the only place that holds volatile data — current dial-in state, open questions, per-bag results.
 
 `CLAUDE.md` deliberately holds none of the above. It's a map and a set of working rules, so it doesn't go stale when the brewing does.
 
 ## Adding a coffee
 
-Copy an existing file from `coffees/`, replace the bag details and roaster specs, empty the tables. Keep espresso, filter and other methods in separate tables.
+Copy an existing file from `coffee/`, replace the bag details and roaster specs, empty the tables. Keep espresso, filter and other methods in separate tables.
 
 ## Reporting a brew
 

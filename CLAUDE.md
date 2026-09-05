@@ -12,7 +12,7 @@ Coffee brewing journal and knowledge base. This file tells you how to work here.
 | `equipment/*.md` | Verified + pending machine, grinder, and brewer behaviour — one file per item (Sage, Arco, Switch), each split into confirmed vs. pending | Before suggesting any Sage/Arco/Switch procedure or diagnosis |
 | `corrections.md` | Previously wrong answers and tested dead ends | Before repeating a suggestion that "sounds obviously right" |
 | `principles.md` | Transferable brewing theory | When reasoning about extraction, water, or technique |
-| `coffees/*.md` | Per-bag logs: specs, every brew, tasting notes | When working on a specific coffee |
+| `coffee/*.md` | Per-bag logs: specs, every brew, tasting notes | When working on a specific coffee |
 
 Read `context.md` first. Read the others when the task calls for them — don't load everything by default.
 
@@ -67,7 +67,7 @@ These are stable facts. Recommendations that ignore them are wrong before they'r
 
 ## Logging
 
-When a brew is reported, append it to the relevant `coffees/*.md` table. Keep espresso, filter, and other methods in separate tables. Record what was done, not what was planned.
+When a brew is reported, append it to the relevant `coffee/*.md` table. Keep espresso, filter, and other methods in separate tables. Record what was done, not what was planned.
 
 **Grind settings are electric-mode unless the entry says hand-ground.** The Arco is a hand/electric 2-in-1; every brew logged so far is electric, and that's the standing default. Don't add a mode column and don't ask which mode on a routine brew — only a hand-ground brew needs flagging.
 
