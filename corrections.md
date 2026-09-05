@@ -32,6 +32,8 @@ Recorded so they aren't regenerated. Each was given confidently and was incorrec
 ### "The historical logs are hand-ground"
 **Wrong — guessed, and guessed backwards.** When the 2-in-1 was documented, the pre-existing logs were annotated as hand-ground on the reasoning that the repo had only ever described a hand grinder. The user confirmed **all logged brews were electric.** The grinder's description in the repo was the incomplete thing, not the brewing practice. Two lessons, both already in `CLAUDE.md`: ask what was actually done, and don't fill a missing field by inference from a document that turned out to be the error.
 
+**The settled convention: electric is the default, past and future.** Only hand-ground brews are flagged. Don't add a mode column to the tables, and don't ask which mode was used on a routine brew — it's electric.
+
 ### Assuming a grind setting carries across drive modes
 **Not established either way.** Reports say the same setting number grinds differently hand vs electric; direction and magnitude are unknown, and no manufacturer statement was found. Do not port a dialed-in number from one mode to the other and treat the brew as a controlled comparison. See the A/B protocol in `equipment.md`.
 

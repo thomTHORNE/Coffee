@@ -69,4 +69,6 @@ These are stable facts. Recommendations that ignore them are wrong before they'r
 
 When a brew is reported, append it to the relevant `coffees/*.md` table. Keep espresso, filter, and other methods in separate tables. Record what was done, not what was planned.
 
+**Grind settings are electric-mode unless the entry says hand-ground.** The Arco is a hand/electric 2-in-1; every brew logged so far is electric, and that's the standing default. Don't add a mode column and don't ask which mode on a routine brew — only a hand-ground brew needs flagging.
+
 When a finding generalises beyond one bag, it belongs in `principles.md`. When it's specific to this machine or grinder, `equipment.md`. When it's a rejected approach, `corrections.md`.

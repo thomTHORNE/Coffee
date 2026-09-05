@@ -31,14 +31,14 @@ Never diagnose from a single descriptor.
 
 **Reporting format:**
 ```
-Recipe: [dose, grind + drive mode (hand/electric), water, temp, method, water source]
+Recipe: [dose, grind, water, temp, method, water source]
 Time: [total]
 Extraction: sour / balanced / bitter / ashy
 Strength: watery / adequate / intense
 Other: [astringency, specific notes, how it changes as it cools]
 ```
 
-**Grind is two fields, not one.** A setting number without the drive mode is an incomplete record on a grinder that has both. See `equipment.md`.
+**Grinder drive mode is assumed electric.** The Arco is a 2-in-1 and every brew here is electric-mode; only *hand-ground* brews need saying so, and then it's the one variable that moved. See `equipment.md`.
 
 ---
 

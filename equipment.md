@@ -193,13 +193,18 @@ Until the above is run, this is preference and ergonomics, not quality:
 - **Expect hand mode to be hard work at these settings.** The journal's espresso range is 0/26–0/32, well below the manufacturer's "espresso" band, on a 42–47 mm conical. Cranking a 15 g dose that fine is not a casual act, and grinding rate will vary through the dose in a way the motor's does not — which is itself a confound in the comparison. Crank as steadily as you can and note if you had to stop.
 - **Mind the duty cycle** on electric: ~6 espresso doses per 20 min, and 20–30 min of rest after 3 minutes continuous. Not a constraint for one or two shots; a real one for a cupping session or a batch of filter doses.
 
-### Logging
+### Logging — ELECTRIC IS THE DEFAULT
 
-**Every brew from here records the mode.** A grind setting without a mode is now an incomplete record.
+**Every brew in this journal is electric-mode unless the entry explicitly says hand-ground.** Past and future, no exceptions.
 
-✅ **All brews logged before 05.09.2026 were ground on the electric dock** — confirmed by the user, not inferred. So the existing data is mode-consistent even though the column was missing: every El Perezoso espresso and every filter brew in the log is a **360 rpm** data point.
+- **All brews logged to date: electric.** Confirmed by the user, not inferred. Every El Perezoso espresso and every filter brew is a 360 rpm data point.
+- **Going forward: electric**, unless the user states otherwise for a specific brew.
+- **Hand-ground brews get flagged in the entry.** An unflagged entry is electric — do not add a mode column, and do not ask which mode was used on a routine brew.
 
-That is better than it could have been. The historical data is internally comparable, and it is all one arm of the comparison. **Hand mode has never been used for a logged brew.**
+Consequences worth holding onto:
+
+- The historical dataset is **mode-consistent**, so it is internally comparable. Nothing in it needs re-reading or discounting.
+- **Hand mode has never been used for a logged brew.** Any hand-ground entry that appears is by definition an experiment, and the mode is then the one variable that moved.
 
 ---
 
