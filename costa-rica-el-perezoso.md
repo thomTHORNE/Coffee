@@ -25,7 +25,7 @@
 - **Espresso:** Sage Dual Boiler, VST 15 g ridgeless basket (VST-152740r)
 - **Filter:** Hario Switch
 - **Grinder:** Arco by Goat Story 2-in-1 (47/32 mm conical), zero point verified — chirp at 0/0, 1–2 clicks to full lock.
-  **All brews below are electric (360 rpm)** — the standing default. Hand mode is untried on this coffee; a hand-ground brew would be flagged as such. See `equipment.md`
+  **All brews below are electric (360 rpm)** — the standing default. Hand mode is untried on this coffee; a hand-ground brew would be flagged as such. See `equipment/arco-grinder.md`
 - **Water (espresso):** Third Wave Water Espresso profile, 1 packet / 2 L
 - **Water (filter):** ⚠️ tap water used for all filter brews to date — see notes
 

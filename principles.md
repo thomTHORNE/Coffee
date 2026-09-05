@@ -1,6 +1,6 @@
 # Brewing Principles
 
-Transferable theory. Applies to any coffee and, mostly, any setup. Machine- and grinder-specific findings live in `equipment.md`.
+Transferable theory. Applies to any coffee and, mostly, any setup. Machine-, grinder-, and brewer-specific findings live in `equipment/`.
 
 ---
 
@@ -38,7 +38,7 @@ Strength: watery / adequate / intense
 Other: [astringency, specific notes, how it changes as it cools]
 ```
 
-**Grinder drive mode is assumed electric.** The Arco is a 2-in-1 and every brew here is electric-mode; only *hand-ground* brews need saying so, and then it's the one variable that moved. See `equipment.md`.
+**Grinder drive mode is assumed electric.** The Arco is a 2-in-1 and every brew here is electric-mode; only *hand-ground* brews need saying so, and then it's the one variable that moved. See `equipment/arco-grinder.md`.
 
 ---
 
@@ -73,7 +73,7 @@ One readout, two variables. Consequences:
 
 **Troubleshooting rule:** sour → grind **finer** and shorten the yield. Never coarser.
 
-**Grinder dependency is load-bearing**, not incidental. See `equipment.md`.
+**Grinder dependency is load-bearing**, not incidental. See `equipment/arco-grinder.md`.
 
 **What turbo is for:** trading contact time for a wider, more even fluid front, so you get higher extraction without the bitter fraction. If a coffee produces no bitterness to begin with, turbo is solving a problem that doesn't exist while costing contact time you need.
 

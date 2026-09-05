@@ -9,7 +9,7 @@ Coffee brewing journal and knowledge base. This file tells you how to work here.
 | File | Contains | Open it when |
 |---|---|---|
 | `context.md` | Standing constraints, gear inventory, brewing prehistory | Start of any session |
-| `equipment.md` | Verified machine and grinder behaviour | Before suggesting any Sage procedure or grinder diagnosis |
+| `equipment/*.md` | Verified + pending machine, grinder, and brewer behaviour — one file per item (Sage, Arco, Switch), each split into confirmed vs. pending | Before suggesting any Sage/Arco/Switch procedure or diagnosis |
 | `corrections.md` | Previously wrong answers and tested dead ends | Before repeating a suggestion that "sounds obviously right" |
 | `principles.md` | Transferable brewing theory | When reasoning about extraction, water, or technique |
 | `coffees/*.md` | Per-bag logs: specs, every brew, tasting notes | When working on a specific coffee |
@@ -22,7 +22,7 @@ Read `context.md` first. Read the others when the task calls for them — don't 
 
 **Check `corrections.md`.** It records suggestions that were already tried and failed, and answers I previously got wrong. Several of them are the first thing a fresh session would reach for. Regenerating them wastes the user's coffee and time.
 
-**Check `equipment.md` before any machine or grinder advice.** General Breville/Sage guidance does not match this unit. Three procedures derived from general knowledge turned out to be wrong on this machine. Trust the file over your training.
+**Check the relevant file in `equipment/` before any machine, grinder, or brewer advice.** General Breville/Sage guidance does not match this unit. Three procedures derived from general knowledge turned out to be wrong on this machine. Trust these files over your training.
 
 ---
 
@@ -71,4 +71,4 @@ When a brew is reported, append it to the relevant `coffees/*.md` table. Keep es
 
 **Grind settings are electric-mode unless the entry says hand-ground.** The Arco is a hand/electric 2-in-1; every brew logged so far is electric, and that's the standing default. Don't add a mode column and don't ask which mode on a routine brew — only a hand-ground brew needs flagging.
 
-When a finding generalises beyond one bag, it belongs in `principles.md`. When it's specific to this machine or grinder, `equipment.md`. When it's a rejected approach, `corrections.md`.
+When a finding generalises beyond one bag, it belongs in `principles.md`. When it's specific to this machine, grinder, or brewer, the matching file in `equipment/` — and say there whether it's confirmed or pending. When it's a rejected approach, `corrections.md`.

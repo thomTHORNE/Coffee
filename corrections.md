@@ -24,7 +24,7 @@ Recorded so they aren't regenerated. Each was given confidently and was incorrec
 **Imprecise.** Research indicates sourness from citric acid is largely unaffected by temperature. What actually happens is *unmasking*: sweetness fades with cooling, and sweetness was suppressing the sourness. The acid was constant. See `principles.md` §8.
 
 ### "The Arco has 38 mm burrs"
-**Wrong**, and the correct figure is still open. Inner diameter is **32 mm**; outer is given as **47 mm** in Goat Story's own diagram and body copy and as **42 mm** in the Technical Specifications block on the same page. 38 mm was carried in `context.md` and `equipment.md` from the start and was never sourced from anywhere. Doesn't change any brewing decision — it changes how the grinder reads against others. **Calipers are the only way to settle 42 vs 47**; don't re-derive it from the web, the web disagrees with itself.
+**Wrong**, and the correct figure is still open. Inner diameter is **32 mm**; outer is given as **47 mm** in Goat Story's own diagram and body copy and as **42 mm** in the Technical Specifications block on the same page. 38 mm was carried in `context.md` and `equipment/arco-grinder.md` from the start and was never sourced from anywhere. Doesn't change any brewing decision — it changes how the grinder reads against others. **Calipers are the only way to settle 42 vs 47**; don't re-derive it from the web, the web disagrees with itself.
 
 ### "The Arco is a hand grinder"
 **Incomplete.** It's the 2-in-1: the same grinder body either hand-cranked or docked to an electric Power Dock (high-speed AC motor reduced to 360 rpm). Recorded as hand-only until 05.09.2026.
@@ -35,7 +35,7 @@ Recorded so they aren't regenerated. Each was given confidently and was incorrec
 **The settled convention: electric is the default, past and future.** Only hand-ground brews are flagged. Don't add a mode column to the tables, and don't ask which mode was used on a routine brew — it's electric.
 
 ### Assuming a grind setting carries across drive modes
-**Not established either way.** Reports say the same setting number grinds differently hand vs electric; direction and magnitude are unknown, and no manufacturer statement was found. Do not port a dialed-in number from one mode to the other and treat the brew as a controlled comparison. See the A/B protocol in `equipment.md`.
+**Not established either way.** Reports say the same setting number grinds differently hand vs electric; direction and magnitude are unknown, and no manufacturer statement was found. Do not port a dialed-in number from one mode to the other and treat the brew as a controlled comparison. See the A/B protocol in `equipment/arco-grinder.md`.
 
 ### Prescribing from a single descriptor
 Happened twice. "Bitter" alone pointed at grind; "bitter **and watery**" pointed at dose and ratio, and needed the opposite response. Always get both axes before diagnosing.

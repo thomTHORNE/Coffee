@@ -8,10 +8,10 @@ Standing facts about the setup, the constraints, and what came before the journa
 
 | Category | Item | Notes |
 |---|---|---|
-| Espresso machine | Sage Dual Boiler | 58 mm, vibratory pump, 96 °C ceiling. See `equipment.md` |
+| Espresso machine | Sage Dual Boiler | 58 mm, vibratory pump, 96 °C ceiling. See `equipment/sage-dual-boiler.md` |
 | Basket | VST 15 g ridgeless (VST-152740r) | **15 g rated**, not 18. Easy to misread — it physically holds more |
-| Grinder | Arco by Goat Story, 2-in-1 | Italmill conical, 32 mm inner (outer 42 or 47 — official page conflicts). **Hand crank + electric Power Dock, 360 rpm — electric is the default; hand-ground brews are flagged as such.** Zero verified. See `equipment.md` |
-| Filter | Hario Switch | Immersion/percolation hybrid |
+| Grinder | Arco by Goat Story, 2-in-1 | Italmill conical, 32 mm inner (outer 42 or 47 — official page conflicts). **Hand crank + electric Power Dock, 360 rpm — electric is the default; hand-ground brews are flagged as such.** Zero verified. See `equipment/arco-grinder.md` |
+| Filter | Hario Switch | Immersion/percolation hybrid. See `equipment/hario-switch.md` |
 | Filter | IKEA french press | Rarely used |
 | Accessory | MHW-3Bomber Rain pour-over splitter | Currently set aside as an uncontrolled variable |
 | Water (espresso) | Third Wave Water, Espresso profile | 1 packet per 2 L (packets are 2 L format) |
