@@ -24,10 +24,13 @@ Recorded so they aren't regenerated. Each was given confidently and was incorrec
 **Imprecise.** Research indicates sourness from citric acid is largely unaffected by temperature. What actually happens is *unmasking*: sweetness fades with cooling, and sweetness was suppressing the sourness. The acid was constant. See `principles.md` §8.
 
 ### "The Arco has 38 mm burrs"
-**Wrong.** It's a **47 mm outer / 32 mm inner** nitrided steel conical set. 38 mm was carried in `context.md` and `equipment.md` from the start and never sourced. Doesn't change any brewing decision, but it does change how the grinder reads against others — 47 mm conicals are not entry-tier. Corrected 05.09.2026 from press and retail sources; not yet confirmed with calipers.
+**Wrong**, and the correct figure is still open. Inner diameter is **32 mm**; outer is given as **47 mm** in Goat Story's own diagram and body copy and as **42 mm** in the Technical Specifications block on the same page. 38 mm was carried in `context.md` and `equipment.md` from the start and was never sourced from anywhere. Doesn't change any brewing decision — it changes how the grinder reads against others. **Calipers are the only way to settle 42 vs 47**; don't re-derive it from the web, the web disagrees with itself.
 
 ### "The Arco is a hand grinder"
-**Incomplete.** It's the 2-in-1: the same grinder body either hand-cranked or docked to an electric Power Dock that turns the burrs at 360 rpm. Every brew logged before 05.09.2026 has **no drive mode recorded.** Don't read that historical data as mode-controlled.
+**Incomplete.** It's the 2-in-1: the same grinder body either hand-cranked or docked to an electric Power Dock (high-speed AC motor reduced to 360 rpm). Recorded as hand-only until 05.09.2026.
+
+### "The historical logs are hand-ground"
+**Wrong — guessed, and guessed backwards.** When the 2-in-1 was documented, the pre-existing logs were annotated as hand-ground on the reasoning that the repo had only ever described a hand grinder. The user confirmed **all logged brews were electric.** The grinder's description in the repo was the incomplete thing, not the brewing practice. Two lessons, both already in `CLAUDE.md`: ask what was actually done, and don't fill a missing field by inference from a document that turned out to be the error.
 
 ### Assuming a grind setting carries across drive modes
 **Not established either way.** Reports say the same setting number grinds differently hand vs electric; direction and magnitude are unknown, and no manufacturer statement was found. Do not port a dialed-in number from one mode to the other and treat the brew as a controlled comparison. See the A/B protocol in `equipment.md`.

@@ -52,34 +52,51 @@ Do not propose a "hold Manual to bloom" procedure. It does not work here.
 
 ## Arco by Goat Story — 2-in-1 (hand + electric dock)
 
-**47 mm outer / 32 mm inner nitrided steel conical burrs.** One grinder, two drive modes: crank it by hand, or twist it into the Arco Power Dock (bayonet mount) and a motor turns the same burrs.
+**Nitrided steel Italmill conical burrs, 32 mm inner** (outer diameter disputed — see below). One grinder, two drive modes: crank it by hand, or twist it into the Arco Power Dock (bayonet mount) and a motor turns the same burrs at 360 rpm.
+
+**All logged brews to date are electric-mode.**
 
 The dock changes **how the burrs are turned, and nothing else.** Burr geometry, alignment, preload, the adjustment collar and the zero point are shared hardware. Any difference in the cup therefore has to come from burr **speed**, or from what speed drags along with it.
 
 ### Specifications
 
-Manufacturer- and press-sourced, **not measured on this unit.**
+From the official Goat Story product page. **Not measured on this unit.**
 
 | Spec | Value |
 |---|---|
-| Burrs | 47 mm outer / 32 mm inner, nitrided steel, conical |
-| Drive shaft | 10 mm, ball-bearing supported |
-| Adjustment | 60 clicks per rotation, 240 settings total (0/0 – 3/60) |
-| Electric burr speed | **360 rpm**, AC motor geared/belt-reduced (one source says ~350) |
+| Burrs | Conical, nitrided steel, **Italmill**. Outer diameter disputed — see below. Inner **32 mm** |
+| Drive shaft | 10 mm steel, twin ball bearings |
+| Body | Aluminium unibody, milled from a single piece |
+| Adjustment | External setting ring. 60 clicks per rotation, 240 settings total (0/0 – 3/60) |
+| Electric burr speed | **360 rpm.** High-speed AC motor, reduced |
 | Hand burr speed | Not published. Hand cranking is roughly 60–120 rpm — *inference, not a source* |
 | Duty cycle (electric) | ~6 espresso doses per 20 min. After 3 min continuous, rest 20–30 min |
-| Noise (electric) | 62–65 dB |
-| Catch cup | 50 g max — single-dose by design |
-| Body | 800 g, 180 × 63 × 190 mm, aluminium unibody |
+| Noise (electric) | 65 dB |
+| Catch cup | 50 g max — magnetic catch/doser, single-dose by design |
+| Power | 110 V / 220 V |
+| Size — hand grinder alone | 800 g, 180 × 63 × 190 mm |
+| Size — docked (2-in-1) | **2,820 g**, 280 × 92 × 190 mm |
 
-⚠️ **Burr size corrected.** This file and `context.md` previously recorded **38 mm**. Every source found says 47/32 mm. See `corrections.md`. Confirm with calipers when convenient — it does not change any brewing decision, but it does change how this grinder compares to others in reading.
+**The docked unit is 3.5× the weight of the grinder alone.** The dock is the mass. Relevant only in that the 2-in-1 is not a travel object once assembled — the hand grinder detaches and is.
+
+⚠️ **Burr outer diameter: the official page contradicts itself.**
+
+| Where | Figure |
+|---|---|
+| "Built to last" exploded diagram | `CONICAL BURR 47/32 NITRIDED STEEL` |
+| Same page, body copy | "Premium **47/32mm** Italmill burrs" |
+| Same page, Technical Specifications block | "Burr dimensions: **42mm** (outer)/32mm (inner)" |
+
+Inner diameter agrees at 32 mm; outer is 47 in two places and 42 in one. Press coverage says 47, but that most likely inherits the marketing copy rather than confirming it independently — two sources repeating one source is still one source.
+
+**Unresolved. Calipers settle it, nothing else will.** It changes no brewing decision — it changes only how this grinder reads against others, where 47 mm is Kinu-M47 territory and 42 mm is a step down. Previously this file recorded **38 mm**, which is wrong on either reading. See `corrections.md`.
 
 ### Calibration — verified sound
 
 - Burrs chirp at `0/0`
 - **1–2 further clicks to full lock.** This is normal burr preload. 1–2 is healthy; 5+ would indicate flex, wear, or a loose retaining nut
 - Zero point is trustworthy. Rule out grinder mechanics as a source of variance
-- Calibration was done by hand. **Whether the zero point reads identically under motor drive is untested** — see the mode-equivalence protocol below
+- The zero point is a **mechanical property of the collar and burrs**, so it does not move when you dock the grinder. What is untested is whether the same *gap* yields the same *particle distribution* under motor drive — see the mode-equivalence protocol below
 
 ### Manufacturer chart (Goat Story)
 
@@ -96,7 +113,7 @@ Manufacturer- and press-sourced, **not measured on this unit.**
 
 **Ignore the "3 µm per click" claim.** It's a marketing figure; independent testing found resolution varies across the range. Adjust by result, never by micron arithmetic.
 
-**The chart is mode-blind.** It gives one number per method and does not say which drive mode it was derived on. Given the open question below, treat it as a hand-mode chart by default.
+**The chart is mode-blind.** It gives one number per method and does not say which drive mode it was derived on. Do not assume it applies to both. Note that every setting recorded in this journal was reached on the **electric** dock, so the working settings here are calibrated against that mode, not against hand.
 
 ---
 
@@ -129,9 +146,16 @@ So: rpm is a real mechanism, a poor cross-grinder predictor, and grinder-specifi
 
 ### Why it is worth testing here anyway
 
-The conical uniformity ceiling below is the standing suspect behind **sour + astringent simultaneously** on El Perezoso turbo shots — wide distribution under short contact time. If hand mode narrows that distribution at all, it is a lever aimed at precisely that failure, and it costs effort rather than money. It is the cheapest remaining move against the ceiling, and it has never been tried deliberately, because until now the two modes were not being tracked as different.
+**Every documented failure on this setup happened at 360 rpm.** The El Perezoso espresso work — sour at every setting, astringent until 0/26, never once bitter — is entirely electric-mode data. The one lever the low-rpm argument points at has never been pulled.
 
-That is also the ceiling on the claim: turbo's sensitivity to distribution is exactly why a *small* improvement might show up here when it would be invisible in a four-minute V60.
+That matters for a specific reason. `principles.md` §7 says: *if a coffee never produces bitterness at any setting, the problem is upstream of the recipe — stop turning dials.* El Perezoso hit that wall. Eight espresso shots, no bitter wall found, the coarse end bracketed and the fine end never reaching over-extraction. The standing explanation is the conical uniformity ceiling below. **Hand mode is a way to test that explanation without buying a grinder** — same burrs, same gap, different rpm.
+
+- If hand mode narrows the distribution, the shots should move *toward* the bitter wall at the same setting: more resistance, longer time, and finally something to over-extract against.
+- If four hand-ground shots behave identically to electric, the ceiling is the burr geometry rather than the speed, and the remaining answers are a different grinder or a different bean.
+
+Either result is worth having, and the second is worth as much as the first — it closes a line of inquiry that would otherwise sit open indefinitely.
+
+Turbo's sensitivity to distribution is also why a *small* rpm effect might be visible here at all, when it would be invisible in a four-minute V60. That cuts both ways: it is the most sensitive available test, and the most likely to be swamped by noise.
 
 ### Setting equivalence between modes — UNRESOLVED
 
@@ -164,15 +188,18 @@ The Sage gauge reads **puck resistance** (`principles.md` §2), and more fines m
 
 Until the above is run, this is preference and ergonomics, not quality:
 
-- **Electric** for anything where repeatability matters more than a hypothesis — dialing in, filter, back-to-back comparisons of some *other* variable. It removes your arm as a source of variance, which is worth more than a contested fines argument.
-- **Hand** where the effort is acceptable and the coffee is one the ceiling is known to punish — light, dense, hard-to-extract beans on turbo.
+- **Electric stays the default.** It is what every logged brew used, so it keeps new data comparable with old, and it removes your arm as a source of variance — worth more in practice than a contested fines argument. Switching the default now would orphan the existing dataset.
+- **Hand is an experiment, not a habit** — run it as the deliberate A/B above, on the coffees the ceiling is known to punish (light, dense, hard-to-extract, on turbo). Don't drift into it casually; that just adds an untracked variable to a journal that has been bitten by exactly that twice.
+- **Expect hand mode to be hard work at these settings.** The journal's espresso range is 0/26–0/32, well below the manufacturer's "espresso" band, on a 42–47 mm conical. Cranking a 15 g dose that fine is not a casual act, and grinding rate will vary through the dose in a way the motor's does not — which is itself a confound in the comparison. Crank as steadily as you can and note if you had to stop.
 - **Mind the duty cycle** on electric: ~6 espresso doses per 20 min, and 20–30 min of rest after 3 minutes continuous. Not a constraint for one or two shots; a real one for a cupping session or a batch of filter doses.
 
 ### Logging
 
 **Every brew from here records the mode.** A grind setting without a mode is now an incomplete record.
 
-⚠️ Existing logs in the per-coffee files carry no mode column and predate the dock being documented. Unless corrected, read all of them as **hand-ground** — and treat that as an assumption, not a fact.
+✅ **All brews logged before 05.09.2026 were ground on the electric dock** — confirmed by the user, not inferred. So the existing data is mode-consistent even though the column was missing: every El Perezoso espresso and every filter brew in the log is a **360 rpm** data point.
+
+That is better than it could have been. The historical data is internally comparable, and it is all one arm of the comparison. **Hand mode has never been used for a logged brew.**
 
 ---
 
@@ -196,14 +223,13 @@ This is the most consequential limitation of the setup, and it may be a hard cei
 
 ## Sources
 
-The official product page (`goat-story.com/products/arco-dual-coffee-grinder`) was **unreachable from the session that wrote this** — blocked by a network egress proxy — so the specs above come from press coverage, retail listings and the user manual as surfaced in search, not from the manufacturer directly. **Worth re-checking against the official page and the printed manual**, particularly the rpm figure and anything Goat Story says about mode equivalence.
+| Source | Used for | Weight |
+|---|---|---|
+| **Official Goat Story product page** — "Built to last" diagram + Technical Specifications, supplied directly | All hardware specs: burrs, Italmill, shaft, motor 360 rpm, 65 dB, dimensions, weights, power, catch cup | Primary |
+| Home-Barista Arco thread | Reports that the setting differs between modes | Forum-level, unconfirmed |
+| Home Grounds; greenestbean | Laser-diffraction grind testing, the hand-mode low-rpm argument | Review-level |
+| ManualsLib / retailer copies of the Arco manual | 60 clicks per rotation, 240 settings, duty cycle | Secondary |
+| Coffee ad Astra, *"What I learned from analyzing 300 particle size distributions for 24 espresso grinders"* | Rpm does not cleanly predict uniformity across grinders | Strong, and it argues *against* the rpm claim |
+| *Scientific Reports* (Mar 2024) | Grinder design affects share of fines independently of median size | Peer-reviewed |
 
-| Source | Used for |
-|---|---|
-| Daily Coffee News, Arco launch coverage | Burrs, 10 mm drive shaft, motor |
-| Sprudge, Arco 2-in-1 coverage | 360 rpm, belt drive, dock operation |
-| Home Grounds; greenestbean | Reviews, laser-diffraction grind testing, the hand-mode low-rpm argument |
-| Home-Barista Arco thread | Reports that the setting differs between modes |
-| ManualsLib / retailer copies of the Arco manual | 60 clicks per rotation, 240 settings, duty cycle |
-| Coffee ad Astra, *"What I learned from analyzing 300 particle size distributions for 24 espresso grinders"* | Rpm does not cleanly predict uniformity |
-| *Scientific Reports* (Mar 2024) | Grinder design affects share of fines independently of median size |
+**On provenance:** the hardware specs above are now first-party — read off Goat Story's own page rather than press coverage. The one thing the official page does *not* settle is its own burr outer diameter, and it says nothing at all about hand-versus-electric grind quality or setting equivalence. **The manufacturer makes no claim that the two modes differ.** The claim that they do is entirely forum and reviewer material, which is why it is written up above as a question with a protocol rather than as a finding.
