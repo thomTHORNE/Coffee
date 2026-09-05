@@ -78,7 +78,7 @@ Higher-grown and lighter-roasted — denser, harder to extract. Expect to grind 
 
 | # | Date | Grind | Dose | Yield | Time | Pressure | Temp | Extraction | Strength | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | | |
+| 1 | 05.09.2026 | 0/24 | 15.0 g | 39 g | 30 s | Peaked 9 bar, eased to high-8/low-9 | 93 °C | Sour (acidic, underdeveloped) | Unclear — reported as heavy body *and* muted/almost-imperceptible flavor; contradictory, see notes | PP95/Pr07. No ice — judged undrinkable as pulled |
 
 ## Other methods
 
