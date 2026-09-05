@@ -1,6 +1,6 @@
 # Coffee Journal
 
-Brewing log and accumulated knowledge. Espresso on a Sage Dual Boiler, filter on a Hario Switch, Arco hand grinder.
+Brewing log and accumulated knowledge. Espresso on a Sage Dual Boiler, filter on a Hario Switch, Arco 2-in-1 grinder (hand + electric dock).
 
 ## Structure
 

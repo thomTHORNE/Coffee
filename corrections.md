@@ -23,6 +23,15 @@ Recorded so they aren't regenerated. Each was given confidently and was incorrec
 ### "As espresso cools, perceived acidity climbs"
 **Imprecise.** Research indicates sourness from citric acid is largely unaffected by temperature. What actually happens is *unmasking*: sweetness fades with cooling, and sweetness was suppressing the sourness. The acid was constant. See `principles.md` §8.
 
+### "The Arco has 38 mm burrs"
+**Wrong.** It's a **47 mm outer / 32 mm inner** nitrided steel conical set. 38 mm was carried in `context.md` and `equipment.md` from the start and never sourced. Doesn't change any brewing decision, but it does change how the grinder reads against others — 47 mm conicals are not entry-tier. Corrected 05.09.2026 from press and retail sources; not yet confirmed with calipers.
+
+### "The Arco is a hand grinder"
+**Incomplete.** It's the 2-in-1: the same grinder body either hand-cranked or docked to an electric Power Dock that turns the burrs at 360 rpm. Every brew logged before 05.09.2026 has **no drive mode recorded.** Don't read that historical data as mode-controlled.
+
+### Assuming a grind setting carries across drive modes
+**Not established either way.** Reports say the same setting number grinds differently hand vs electric; direction and magnitude are unknown, and no manufacturer statement was found. Do not port a dialed-in number from one mode to the other and treat the brew as a controlled comparison. See the A/B protocol in `equipment.md`.
+
 ### Prescribing from a single descriptor
 Happened twice. "Bitter" alone pointed at grind; "bitter **and watery**" pointed at dose and ratio, and needed the opposite response. Always get both axes before diagnosing.
 
