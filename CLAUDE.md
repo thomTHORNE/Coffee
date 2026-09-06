@@ -79,4 +79,6 @@ When a brew is reported, append it to the relevant `coffee/*.md` table. Keep esp
 
 **Grind settings are electric-mode unless the entry says hand-ground.** The Arco is a hand/electric 2-in-1; every brew logged so far is electric, and that's the standing default. Don't add a mode column and don't ask which mode on a routine brew — only a hand-ground brew needs flagging.
 
+**Filter brews need the pour breakdown every time** — bloom size/time, then each subsequent pour target, not just total dose/water/grind/temp. This isn't a default like grind mode; there's no assumed structure, so ask for it if it's missing rather than inventing one or leaving it blank.
+
 When a finding generalises beyond one bag, it belongs in `principles.md`. When it's specific to this machine, grinder, or brewer, the matching file in `equipment/` — and say there whether it's confirmed or pending. When it's a rejected approach, `corrections.md`.

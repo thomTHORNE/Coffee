@@ -32,6 +32,7 @@ Never diagnose from a single descriptor.
 **Reporting format:**
 ```
 Recipe: [dose, grind, water, temp, method, water source]
+Pours (filter only): [bloom size/time, then each subsequent pour target]
 Time: [total]
 Extraction: sour / balanced / bitter / ashy
 Strength: watery / adequate / intense

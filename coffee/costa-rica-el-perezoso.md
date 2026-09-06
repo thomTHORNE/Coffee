@@ -75,7 +75,8 @@
 
 ## Pending / next steps
 
-- [ ] Re-brew F2 recipe (22 g / 330 g / 1/30 / boiling / 50 g bloom 45 s / Switch open) with **Sveti Rok** spring water (HCO₃ 177 mg/L, dry residue 181) — first clean filter data point
+- [ ] Re-brew F2 recipe (22 g / 330 g, 1:15 / 1/30 / boiling / Switch open) with **Sveti Rok** spring water (HCO₃ 177 mg/L, dry residue 181) — first clean filter data point.
+      Pours: bloom 50 g for 45 s, then pour to 200 g, then to 330 g
 - [ ] If clean filter cup is sweet → coffee is fine, espresso path is the problem
 - [ ] If clean filter cup is still flat/sour → suspect underdeveloped roast; contact Goat Story
 - [ ] Consider resting bag to day 18–20 before further espresso attempts
