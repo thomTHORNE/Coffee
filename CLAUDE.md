@@ -18,14 +18,6 @@ Read `context.md` first. Read the others when the task calls for them — don't 
 
 ---
 
-## Git workflow
-
-Single-maintainer personal repo, no review process. Commit and push brew logs and corrections directly to `main` — no feature branch or PR needed for routine journal updates (logging a brew, updating a file per the sections below). Still avoid destructive history rewrites (force-push, `reset --hard`) without asking first.
-
-Note this is a documented preference, not an override: some Claude Code sessions (e.g. web sessions assigned a task-specific branch) are told at the platform level to develop on a designated branch and get explicit permission before pushing elsewhere. That instruction comes from the session setup, not this file, and takes precedence when present — this note applies when the assistant otherwise has discretion over branch/push behavior.
-
----
-
 ## Before you suggest anything
 
 **Check `corrections.md`.** It records suggestions that were already tried and failed, and answers I previously got wrong. Several of them are the first thing a fresh session would reach for. Regenerating them wastes the user's coffee and time.
