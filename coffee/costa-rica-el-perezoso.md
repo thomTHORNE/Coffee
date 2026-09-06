@@ -69,28 +69,29 @@
 | F1 | 05.09 | Switch open, percolation | 15 g | 250 g | 1/30 | boiling | — | tap | bitter | watery | Muted, nothing stands out. Bottom-right of brew chart: high EY, low TDS |
 | F2 | 05.09 | Switch open, percolation | 22 g | 330 g | 1/30 | boiling | 3:00 | tap | ambiguous | adequate | Body fixed. Completely flat — "tasteless medicine." Stinging edge, neither clearly sour nor bitter |
 | F3 | 06.09 | Switch open, percolation | 22 g | 330 g | 1/30 | boiling | 3:00 | Sara natural mineral water diluted 1:1 with distilled (~129 mg/L HCO₃, ~101 mg/L dry residue, inferred) | sour | adequate | Bloom 50 g/45 s → 200 g → 330 g, matching F2 exactly bar water. **Medicinal sting completely gone** — chlorine mechanism confirmed. Flat, no characteristics, **zero sweetness**. Clean, pleasant acidity/brightness once cooled. Possible bitterness while hot — **low confidence**, palate untested that morning (only water beforehand), not treated as verdict |
+| F4 | 07.09 | Switch open, percolation | 22 g | 330 g | 1/15 (15 clicks finer than F3) | boiling | 3:10 | Same as F3 (Sara diluted 1:1 distilled) | balanced (thin) | adequate | Identical to F3 except grind. **Drawdown barely moved** — only +10 s for a 15-click step, smaller than expected; either this zone of the grinder has coarser resolution than assumed, or drawdown here is pour-schedule-dominated, not grind-dominated. Cleanest brew yet, no bitterness at all, body round/not heavy. No hot/cold difference. Reads more acidic than sour, and **sweetness present for the first time on this bag, on either method** — still flat/simple, no distinguishable notes, but no longer the sour/no-sweetness signature of F1–F3 |
 
-**⚠️ F1/F2 used chlorinated tap water — that data stays invalid.** F3 is the first clean (non-tap) filter data point on this bag. Flat + chemical sting + adequate body was the tap water signature; F3 confirms the sting was chlorine specifically — it's gone with dechlorinated water, while the flatness/no-sweetness persisted. That isolates flatness as *not* a chlorine effect, but doesn't yet say what it is: grind has never been varied on filter (all three brews at 1/30), so it hasn't been ruled out as the cause. See pending steps.
+**⚠️ F1/F2 used chlorinated tap water — that data stays invalid.** F3 is the first clean (non-tap) filter data point on this bag. Flat + chemical sting + adequate body was the tap water signature; F3 confirmed the sting was chlorine specifically — gone with dechlorinated water, while flatness/no-sweetness persisted. F4 then isolated grind as the next variable and got real movement: sweetness appeared, sourness receded toward "more acidic than sour." That's evidence *against* hypothesis 1 below (sugars can't be unlocked by extracting harder if the roast never developed them) — see Open hypotheses.
 
 ---
 
 ## Pending / next steps
 
-- [x] ~~Re-brew F2 recipe with Sveti Rok~~ — done with diluted Sara (1:1 distilled) instead, as the only available option that morning; F3 above. Provenance caveat on the distilled component still stands, unresolved
-- [ ] **Next: isolate grind on filter.** All three filter brews used 1/30 — grind has never been the varied factor. F3 read as textbook "sour" (sharp/acidic, thin, no sweetness) per `principles.md` §4's extraction table, and strength already reads adequate, so the indicated single-variable fix is finer grind alone (not ratio — that's only for when strength also needs correcting). Keep dose, ratio, water, temp, and pours identical to F3; move grind a real step finer, not a token click or two (see `corrections.md` on timid steps costing brews across an unknown range). Watch drawdown time — a finer grind should extend it on its own
-- [ ] Holding off on "underdeveloped roast" as a conclusion. It remains one open hypothesis, not the diagnosis — grind is untested on filter and needs ruling out first, especially since `equipment/arco-grinder.md` flags the manufacturer's per-method grind chart as unreliable in general (already shown wrong for espresso)
-- [ ] If a meaningfully finer grind still comes back sour/flat/no-sweetness → that starts to look like a real cross-check per `principles.md` §7 ("if espresso can't over-extract but filter can, the espresso path is the limitation, not the bean" — the converse: if filter *also* can't push past sour even pushed hard, the limitation is upstream of both methods)
-- [ ] If clean filter cup is sweet → coffee is fine, espresso path is the problem
+- [x] ~~Re-brew F2 recipe with Sveti Rok~~ — done with diluted Sara (1:1 distilled) instead; F3
+- [x] ~~Isolate grind on filter~~ — F4, 1/30 → 1/15. Real improvement: sweetness appeared, no bitterness. No wall found yet — keep pushing
+- [ ] **Next: F5, another real step finer.** Suggest 1/15 → 1/0 (another 15 clicks, same size as the F3→F4 step, both for consistency and because the F4 timing barely moved — a same-size step here is still cheap to test). Keep dose, ratio, water, temp, and pours identical. Watch for: drawdown extending further, any channeling/stalling at the spout, and specifically whether bitterness/ashiness finally shows up — that wall hasn't been found on this bean at any grind, on either method, yet
+- [ ] **Revise hypothesis 1 downward.** "Roast never developed sugars" is weaker after F4 — sweetness that appears when you extract harder implies the sugars were there, just under-extracted, not absent. Not ruled out entirely (could still be under-developed *relative to what's needed*), but no longer the best-fit default
+- [ ] If continued finer grinding keeps improving sweetness/complexity without ever finding a bitter wall → point back at `equipment/arco-grinder.md`'s conical uniformity ceiling as the more likely limiter, on both methods
 - [ ] Consider resting bag to day 18–20 before further espresso attempts
 - [ ] Untried espresso variable: nothing left of consequence. 96 °C is the machine ceiling
 
 ## Open hypotheses
 
-1. **Underdeveloped roast** — one candidate, not concluded. Sourness with no sweetness is consistent with it, but grind has never been varied on filter, so it hasn't been isolated from a simple under-extraction explanation yet
-2. **Insufficient rest** — all espresso pulled at day 5–10 on a dense natural; filter (F3) was day 12
-3. **Arco conical distribution ceiling** — at espresso settings, bimodal grind means boulders under-extract while fines channel
-4. **Palate mismatch** — the roaster's "sour cherry" may simply read as plain sour
-5. **Filter grind untested, not just water** — every filter brew to date sits at the same 1/30 setting; the flat/no-sweetness result survived removing chlorine, but hasn't yet been tested against a real change in extraction via grind
+1. **Underdeveloped roast** — weakened by F4. Sweetness emerged under a finer grind, which a roast with zero developed sugars couldn't produce regardless of extraction. Not eliminated, but no longer best-fit
+2. **Insufficient rest** — all espresso pulled at day 5–10 on a dense natural; filter has now run day 12 (F3) and day 13 (F4)
+3. **Arco conical distribution ceiling** — strengthened by F4. No bitter wall found on espresso (12 clicks) *or* filter (15 clicks, a real step) — two methods now, same bean, same failure to over-extract. Consistent with a burr-geometry ceiling rather than a bean or roast problem
+4. **Palate mismatch** — the roaster's "sour cherry" may simply read as plain sour. Weakened somewhat: F4 is now read as "acidic," not "sour," at the same rough position on the roaster's own descriptor
+5. **Filter grind, not yet exhausted** — F4 showed grind is a real, responsive lever on this bean. Continue bracketing before concluding anything else
 
 ## Reference: comparison coffee
 
